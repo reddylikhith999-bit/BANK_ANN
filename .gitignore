@@ -1,0 +1,66 @@
+# ==========================================
+# PYTHON & ENVIRONMENT
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# MODEL WEIGHTS & LARGE DATASETS
+# (Since you store models in GitHub Releases or Google Drive)
+# ==========================================
+*.pkl
+*.h5
+*.hdf5
+*.keras
+*.onnx
+*.pt
+*.pth
+model/
+model_ann.pkl
+
+# ==========================================
+# DATASETS & SPREADSHEETS
+# ==========================================
+bank.csv
+train*.csv
+test*.csv
+*.csv
+*.xlsx
+*.parquet
+
+# ==========================================
+# IDE & LOCAL CONFIGURATIONS
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# STREAMLIT & LOGS
+# ==========================================
+.streamlit/secrets.toml
+*.log
